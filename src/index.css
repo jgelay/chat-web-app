@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  height:5vh;
+}
+
+.body {
+    height:96vh;
+}
+
+.nav-brand {
+  color: white !important;
+  font-size: 2.0em !important;
+}
+
+.welcome {
+  border: 1px solid red;
+}
+
+.bg-home {
+  background-color: rgb(75,77,102);
+}
+
+.top-nav {
+    background-color: rgb(93,206,186);
+    height: 4vh;
+}
+
+.channels {
+    background-color: rgb(47,49,54);   
+}
+
+.channels .card-header {
+    background-color: rgb(47,49,54) !important;
+    border: none !important;
+    padding: 0 !important; 
+    outline:0 !important
+}
+
+.channels .card-body {
+    background-color: rgb(47,49,54); 
+    border: none; 
+    color: white;
+    padding: 0% !important
+}
+
+.chat {
+    background-color: white;
+}
+
+.icon-small{
+    height: 3vh;
+    width: 3vh;
+}
+
+.icon-user-medium {
+    margin-top: 255px !important;
+}
+
+.top-nav .icon-small {
+    margin-top: 0.5vh;
+    margin-left: -50vh;
+}
+
+.search {
+    margin: -3vh 10vh 65vh 65vh;
+}
+
+.smaller-input {
+    font-size: 1.75vh !important;
+    padding: 0.1vh 0.5vh !important;
+}
+
+.list {
+    width: 25.3vh;
+    border: none !important;
+}
+
+.accordion-items {
+    text-indent: 10%;
+    word-spacing: 1vh;
+}
+
+.collapsing {
+    transition: none !important;
+}
+
+.send-message{
+    border: 1px solid blue;
+    width: 174vh;
+    height: 8vh;
+    margin-bottom: 2vh;
+} 
+
+.icon-btn-small {
+    height: 3vh;
+    width: 3vh;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.server-nav {
+    height: 100vh;
+    width: 1vh;
+    background-color: rgb(32,34,37);
+}
+
+.server-body {
+    background-color:rgb(54,57,63);
+    
+}
