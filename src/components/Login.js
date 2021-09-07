@@ -20,23 +20,6 @@ class Login extends React.Component {
         
     }
 
-    componentDidMount() {
-            var that = this;
-            axios({
-                method: "get",
-                withCredentials: true,
-                url: "http://localhost:8000/Session",
-            })
-            .then(response => {
-                console.log(response);
-                if (response.status === 200) {
-                    if (response.data === "Session is still active") {
-                        that.setState({authenticated:true});          
-                    }
-                }
-            });
-    }
-
     handleClick() {
         var that = this;
 
@@ -67,7 +50,7 @@ class Login extends React.Component {
 
     render () {
         if (this.state.authenticated) {
-            authenticate.setAuthenticate();
+            authenticate.setAuthenticate("Set authenticate is called from Login");
             return <Redirect to='/' />
         }
 
